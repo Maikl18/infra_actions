@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: laimisgood/laimisgood/gates:latest
+          tags: laimisgood/gates:latest
 
   deploy:
     runs-on: ubuntu-latest
